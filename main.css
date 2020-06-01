@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+html{
+    text-align: center;
+}
+nav{
+    padding:20px 0 20px 0;
+    color:blue;
+    border-bottom:2px solid orange;
+    font-size:larger;
+}
+article{
+    padding:20px 0 20px 0;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.simg{
+    width:25vw;
+}
+.ab_song{
+    display:block;
+    width:50%;
+    float:right;
+    text-align:left;
+    margin-left:5%;
+}
+.ab_song p{
+    margin-bottom:20px;
+}
+.songs{
+    margin-top:40px;
+    text-align: right;
+}
+#download{
+    text-align:center;
+    margin-top:20px;
+}
+#main_d{
+    text-align: center;
+    margin-top:20px;
+}
+button{
+    background-color:skyblue;
+    padding:15px 40px 15px 40px;
+    border:none;
+    outline:none;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.you_tube p{
+    margin-bottom:20px;
+}
+.you_tube{
+    margin-top:40px;
+    text-align:center;
+    margin-bottom:40px;
+}
+iframe{
+    height:300px;
+}
+footer{
+    padding:20px 0 20px 0;
+    background-color:black;
+    color:white;
+}
+header{
+    background-color:whitesmoke;
+}
+@media only screen and (max-width:900px){
+    .simg{
+        width:50%;
+    }
+    .ab_song{
+        display:block;
+        clear: both;
+        width:100%;
+        margin-right:0;
+        text-align: center;
+        margin-top:20px;
+    }
+    .songs{
+        text-align:center;
+        margin-left: 0;
+        margin-top:10px;
+    }
+    .you_tube{
+        margin-left:0;
+        margin-top:20px;
+    }
+}
+
+@media only screen and (max-width:520px){
+    .simg{
+        width:80%;
+    }
+}
